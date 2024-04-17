@@ -3,37 +3,42 @@ algoritmo "Exercicio Vetores 01"
 
 var
 nomes: vetor [0..4] de caracter
+quantidade: vetor [0..4] de inteiro
 
 inicio
-escreva("Digite o nome do item 01")
+escreva("Digite o nome do item 01: ")
 leia(nomes[0])
+escreva("Digite a quantidade 01: ")
+leia(quantidade[0])
 
-///// faz nome e pede estoque
+escreval
 
-escreva("Dgite o nome do item 02")
+escreva("Dgite o nome do item 02: ")
 leia(nomes[1])
+escreva("Dgite a quantidade: ")
+leia(quantidade [1])
 
-///// faz nome e pede estoque
+escreval
 
-
-escreva ("Digite o nome do item 02")
+escreva ("Digite o nome do item 03: ")
 leia(nomes[2])
+escreva ("Digite a quantidade 03: ")
+leia(quantidade[2])
 
-///// faz nome e pede estoque
+escreval
 
-
-escreva("Digite o nome do item 03")
+escreva("Digite o nome do item 03: ")
 leia(nomes[3])
+escreva ("Digite a quantidade 04: ")
+leia(quantidade[3])
 
-///// faz nome e pede estoque
+escreval
 
-
-escreva("Digite o nome do item 04")
+escreva("Digite o nome do item 04: ")
 leia (nomes[4])
+escreva ("Digite a quantidade 05: ")
+leia(quantidade[4])
 
-///// faz nome e pede estoque
-
-
-
+escreval
 
 fimalgoritmo
